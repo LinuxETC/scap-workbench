@@ -40,6 +40,13 @@ On Ubuntu this is roughly equivalent to:
 # apt install libpolkit-agent-1-0
 ```
 
+On SUSE/OpenSUSE the parallels are as follows:
+```
+# zypper install cmake-mini
+# zypper install libqt5-qtbase-devel libqt5-qtbase-common-devel libqt5-qtxmlpatterns-devel
+# zypper install asciidoc --no-recommends
+```
+
 2) Build SCAP Workbench:
 ```console
 $ mkdir build; cd build
